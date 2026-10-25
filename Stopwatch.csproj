@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>MultiStopwatch</RootNamespace>
+    <AssemblyName>Stopwatch</AssemblyName>
+    <Product>Stopwatch</Product>
+    <Version>1.0.0</Version>
+    <ApplicationIcon>Assets\Stopwatch.ico</ApplicationIcon>
+    <!-- Application.ThemeMode (Fluent theme) is still flagged as experimental. -->
+    <NoWarn>$(NoWarn);WPF0001</NoWarn>
+    <DefaultItemExcludes>$(DefaultItemExcludes);dist/**;tools/**</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Stopwatch.ico" />
+  </ItemGroup>
+
+</Project>
