@@ -14,9 +14,9 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - uses: actions/setup-dotnet@v5
-        with:
-          dotnet-version: 10.0.x
+      # The windows-latest image already ships the .NET 10 SDK.
+      - name: .NET SDKs
+        run: dotnet --list-sdks
 
       # Same settings as publish.ps1: one framework-dependent .exe.
       - name: Publish
