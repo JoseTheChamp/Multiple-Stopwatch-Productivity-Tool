@@ -5,7 +5,7 @@ A small Windows desktop app with **several named stopwatches, only one of which 
 Built with **WPF on .NET 10** (C#, MVVM, no third-party dependencies).
 
 <p align="center">
-  <img src="docs/images/demo.gif" width="586" alt="Switching between three task timers with one click, then saving the day's times to the table">
+  <img src="docs/images/demo.gif" width="586" alt="Switching between four task timers with one click each, then saving the day's times to the table">
 </p>
 
 <p align="center">
